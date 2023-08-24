@@ -70,19 +70,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.4rem;
 }
 
 #weather-data h2 i {
-  font-size: 1rem;
+  font-size: 1.6rem;
+  margin-right: 0.2rem;
 }
 
 #weather-data span {
-  margin: 0.6rem;
+  margin: 0.3rem;
 }
 
 #temperature {
-  font-size: 4rem;
+  font-size: 4.5rem;
+  margin-top: 2rem;
+  margin-right: 0.4rem;
   
 }
 
@@ -100,6 +103,7 @@ body {
 #description {
   text-transform: capitalize;
   font-weight: bold;
+  margin-left: 2.9rem;
 }
 
 #details-container {
@@ -112,6 +116,10 @@ body {
   border-right: 1px solid #fff;
   margin: 0.6rem;
   padding: 0.6rem;
+}
+
+#weather-icon {
+  width: 85px;
 }
 
 /* Loader */
